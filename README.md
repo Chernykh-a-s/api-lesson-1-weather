@@ -34,6 +34,9 @@ python -m venv env
 git clone https://github.com/Chernykh-a-s/api-lesson-1-weather
 ```
 
+**Переход в репозиторий со скриптом:**
+cd api-lesson-1-weather
+
 **Установка зависимостей:**
 ```
 pip install -r requirements.txt
