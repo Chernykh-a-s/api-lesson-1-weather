@@ -31,7 +31,7 @@ python -m venv env
 
 **Клонируем репозиторий:**
 ```
-git clone https://github.com/Chernykh-a-s/Chernykh-a-s-web-api-lesson-1-weather
+git clone https://github.com/Chernykh-a-s/api-lesson-1-weather
 ```
 
 **Установка зависимостей:**
@@ -44,5 +44,5 @@ pip install -r requirements.txt
 python weather.py
 ```
 
-![Пример скриншота](C:\devman\api\task1\Screenshot.png)
+![Пример скриншота](https://github.com/Chernykh-a-s/api-lesson-1-weather/blob/weather/Screenshot.png)
 
