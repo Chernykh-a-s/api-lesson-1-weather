@@ -1,17 +1,6 @@
 #  Скрипт для вывода прогноза погоды в терминал
 
- Данные о погоде берутся с сайта: https://wttr.in/
-
-**Для отображения погоды в терминале требуется клонировать репозиторий:**
-```
-git clone https://github.com/Chernykh-a-s/Chernykh-a-s-web-api-lesson-1-weather
-```
-Должна быть установлена версия python не ниже 3.6.</br> 
-
-**Для установки последней версии python в терминале windows:**
-```
-pip install python
-```
+Данные о погоде берутся с сайта: https://wttr.in/
 
 ### Адрес документации сервиса wttr.in
 https://wttr.in/:help
@@ -22,3 +11,38 @@ https://wttr.in/:help
 Смотрите поддерживаемые типы местоположений в документации сервиса https://wttr.in/:help</br> 
 
 Ссылка на официальную документацию python по типу данных списки (list): https://docs.python.org/3/tutorial/introduction.html#lists
+
+Все команды выполняются в терминале windows.
+
+**Установка последней версии python:**
+```
+pip install python
+```
+
+**Для изоляции проекта рекомендуется развернуть виртуальное окружение:**
+```
+python -m venv env
+```
+
+**Активация виртуального окружения:**
+```
+.\env\Scripts\activate
+```
+
+**Клонируем репозиторий:**
+```
+git clone https://github.com/Chernykh-a-s/Chernykh-a-s-web-api-lesson-1-weather
+```
+
+**Установка зависимостей:**
+```
+pip install -r requirements.txt
+```
+
+**Вывод погоды в терминал:**
+```
+python weather.py
+```
+
+![Пример скриншота](C:\devman\api\task1\Screenshot.png)
+
